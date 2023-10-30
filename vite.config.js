@@ -4,7 +4,7 @@ import tailwindcss from 'tailwindcss'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/akshitgoyal",
+  base: "./akshitgoyal",
   plugins: [react()],
   css: {
     postcss: {
